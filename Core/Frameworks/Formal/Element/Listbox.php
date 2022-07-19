@@ -40,6 +40,7 @@ class Listbox extends \Formal\Element {
         $prop = $this->option("prop");
         $helpblock = "";
         $popover = "";
+        $onchange = "";
 
         if ($this->option("readonly") === true) {
             $inputclass .= " disabled";
